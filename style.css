@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+
+}
+.mother{
+    max-width: 100%;
+    width: 700px;
+    height: 700px;
+    background: url(./img/новая.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+}
+.child1{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px black;
+}
+.child1 p{
+    color: wheat;
+    text-align: center;
+    align-items: center;
+    padding: 18px 0 0 0;
+    font-size: 50px;
+}
+.child2{
+    margin: 0 0 0 20px;
+}
+.small1 input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.small2 input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.small3 input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+div{
+    margin: 0 0 20px 0;
+}
+form img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 10px 0 0 0;
+}
+p{
+    color: wheat;
+}
+a{
+    color: rgb(170, 255, 0);
+}
+button{
+    color: rgb(10, 36, 184);
+    height: 70px;
+    width: 300px;
+    background: rgb(143, 201, 26);
+    margin: 30px 0 0 0;
+    font-size: 20px;
+}
+button:hover{
+    -webkit-box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92); 
+    box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92);
+}
+.small5{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 -10px 0;
+}
+.small6{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:361px){
+    .child1 p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:380px){
+    .small1 input{
+        width: 150px;
+    }
+    .small2 input{
+        width: 150px;
+    }
+    .small3 input{
+        width: 150px;
+    }
+}
+@media screen and (max-width:350px){
+    button{
+        width: 200px;
+    }
+}
